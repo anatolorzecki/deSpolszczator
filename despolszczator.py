@@ -1,4 +1,4 @@
-# despolszczator 1.0
+# deSpolszczator 1.0
 
 import os
 from tkinter import *
