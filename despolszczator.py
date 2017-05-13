@@ -12,7 +12,7 @@ window.resizable(width=False, height=False)
 def swapper():
     file_names = os.listdir(file_path.get())
     print(file_path.get())
-    letter_swap(file_names)  # listing folderow
+    letter_swap(file_names)
 
 
 def letter_swap(names):
