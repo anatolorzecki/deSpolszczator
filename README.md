@@ -1,3 +1,3 @@
 # deSpolszczator
-Simple tool to rename folder names with polish diacritics to ASCII equivalent.
+Simple tool for renaming folder names. Swapping polish diacritics with ASCII equivalents.
 Written in Python 3.x.x
