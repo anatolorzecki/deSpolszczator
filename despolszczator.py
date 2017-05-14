@@ -35,7 +35,7 @@ e1 = Entry(window, textvariable=file_path)
 e1.grid(row=0, column=1, columnspan=3)
 file_path.set("")
 
-b1 = Button(window, text="Clean this shit out!", command=swapper)
+b1 = Button(window, text="Clean", command=swapper)
 b1.grid(row=0, column=4)
 
 window.mainloop()
