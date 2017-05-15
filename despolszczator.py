@@ -25,7 +25,7 @@ def letter_swap(names):
             nfkd_form = unicodedata.normalize('NFKD', name).replace(u'ł', 'l').replace(u' ', '_')
             wo_pl_letters = nfkd_form.encode('utf-8', 'ignore').decode('ASCII', 'ignore')
             print(wo_pl_letters)
-            os.rename(path+'\\'old_name, path+'\\'str(wo_pl_letters))
+            os.rename(path+'\\'+old_name, path+'\\'+str(wo_pl_letters))
 
 l1 = Label(window, text="Path to execute:")
 l1.grid(row=0, column=0)
