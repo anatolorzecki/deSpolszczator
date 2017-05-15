@@ -36,6 +36,6 @@ e1.grid(row=0, column=1, columnspan=5)
 file_path.set("")
 
 b1 = Button(window, text="Clean", command=swapper)
-b1.grid(row=0, column=4)
+b1.grid(row=0, column=6)
 
 window.mainloop()
